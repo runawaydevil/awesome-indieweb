@@ -1,0 +1,38 @@
+name: Link check
+
+on:
+  schedule:
+    - cron: "0 0 1 * *"   # 00:00 UTC on the 1st of every month
+  workflow_dispatch:        # allow manual runs from the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: link-check
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Check links and annotate dead entries
+        run: python .github/scripts/check_links.py
+
+      - name: Commit changes if any
+        run: |
+          if [ -n "$(git status --porcelain README.md)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add README.md
+            git commit -m "chore: flag dead links (automated monthly check)"
+            git push
+          else
+            echo "No dead-link changes to commit."
+          fi

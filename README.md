@@ -1,10 +1,14 @@
 # Awesome IndieWeb [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of protocols, platforms, services, libraries, and tools for publishing and owning an independent personal website — on your own domain, with durable URLs, connected to the rest of the web through open standards.
+> A curated list of protocols, platforms, services, libraries, and tools for publishing and owning an independent personal website (on your own domain, with durable URLs, connected to the rest of the web through open standards).
 
 The [IndieWeb](https://indieweb.org/) is not a product, a social network, or an official stack. It is an approach centered on **publishing first in a space you control** (normally your own domain), keeping URLs durable, and connecting that site to the wider web through open standards.
 
-This list spans both resources **native to the IndieWeb** (standards and building blocks) and **adjacent** tools that solve important parts of the problem well. Statuses change fast — confirm recent releases, docs, and export procedures before adopting a critical component.
+This list spans both resources **native to the IndieWeb** (standards and building blocks) and **adjacent** tools that solve important parts of the problem well. Statuses change fast, confirm recent releases, docs, and export procedures before adopting a critical component.
+
+**Contributions are welcome.** Open a [pull request](https://github.com/runawaydevil/awesome-indieweb/pulls) to add, update, or remove an entry, or file an [issue](https://github.com/runawaydevil/awesome-indieweb/issues/new/choose) to suggest a resource or report a broken link. Please read the [contribution guidelines](CONTRIBUTING.md) first.
+
+Links are checked automatically on the first of each month. Entries found permanently unreachable are flagged **(link no longer exists)** next to them — please open a PR to fix or remove any you spot.
 
 ## Contents
 
