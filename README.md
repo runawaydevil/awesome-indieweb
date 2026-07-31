@@ -185,6 +185,7 @@ Links are checked automatically on the first of each month. Entries found perman
 - [Franklin.jl](https://franklinjl.org/) - Julia generator with live-evaluated code and math; popular for technical and research sites.
 - [VuePress](https://vuepress.vuejs.org/) - Vue-powered Markdown-centric generator (predecessor to VitePress) for docs-style sites.
 - [Gridsome](https://gridsome.org/) - Vue + GraphQL Jamstack generator; historically notable.
+- [Neato](https://www.neato.pub/) - Neato is a web page publishing system from [Neatnik](https://neatnik.net/) (the guy behind [omg.lol](https://omg.lol/)). Written in PHP.
 
 ## Git-Based and Visual Editors
 
@@ -244,6 +245,7 @@ Links are checked automatically on the first of each month. Entries found perman
 - [Hetzner](https://www.hetzner.com/) - German provider with very low-cost cloud VPS and dedicated servers; a self-hosting favorite.
 - [Mythic Beasts](https://www.mythic-beasts.com/) - UK independent host offering VPS, shell accounts, DNS, and personal web/email hosting.
 - [rsync.net](https://rsync.net/) - Minimalist offsite storage accessed over SSH/rsync/SFTP; ideal for portable, provider-agnostic backups.
+- [Uberspace](https://uberspace.de/en/) - Hosting on Asteroids since 2010. Host your homepage, store git repositories, compile your own software or run your own web service. You can do it all!
 
 ## Servers, TLS and Deployment
 
@@ -283,6 +285,7 @@ Links are checked automatically on the first of each month. Entries found perman
 - [NixOS](https://nixos.org/) - Linux distribution with declarative, reproducible system configuration.
 - [Sandstorm](https://sandstorm.io/) - Open-source platform to run self-hosted web apps in secure sandboxes with one-click installs.
 - [Ansible](https://www.ansible.com/) - Agentless automation to provision and configure servers reproducibly.
+- [Uncloud](https://uncloud.run/) - Multi-node Docker Compose for production. Deploy web apps across cloud servers or your own hardware without cluster-management overhead.
 
 ## Microformats and Validation
 
