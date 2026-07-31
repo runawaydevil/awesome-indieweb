@@ -677,6 +677,7 @@ Links are checked automatically on the first of each month. Entries found perman
 - [Blaugust](https://blaugust.net/) - Annual month-long event encouraging people to (re)start personal blogging, with mentors and a Discord.
 - [Recurring Creative Challenges](https://challenges.stefanbohacek.com/) - Directory of recurring indie-web and creative challenges that drive personal-site activity.
 - [Yesterweb](https://yesterweb.org/) - Influential anti-corporate "reclaim the web" community and webzine.
+- [omg.lol](https://omg.lol/) - Community of personal websites built around your own domain, with profile pages carrying h-card and rel=me, a weblog, statuslog and now pages, and the social.lol Mastodon instance. ⭐ *Curator's pick*
 
 ## Learning Web Development
 
