@@ -1,5 +1,5 @@
 blank_issues_enabled: true
 contact_links:
   - name: Contribution guidelines
-    url: https://github.com/runawaydevil/awesome-indieweb/blob/main/CONTRIBUTING.md
+    url: https://source.tube/pmurad/awesome-indieweb/src/branch/main/CONTRIBUTING.md
     about: Please read the guidelines before adding, updating, or removing an entry.

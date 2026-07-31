@@ -1,0 +1,42 @@
+name: Link check
+
+on:
+  schedule:
+    - cron: "0 0 1 * *"   # 00:00 UTC on the 1st of every month
+  workflow_dispatch:        # allow manual runs from the Actions tab
+
+jobs:
+  check:
+    runs-on: docker
+    # python:3 ships both python3 and git, so the job needs no Node-based
+    # actions (checkout/setup-python). Every step below is a plain shell step.
+    container:
+      image: python:3
+    steps:
+      - name: Check out the repository
+        env:
+          # Prefer a write-enabled access token stored as the PUSH_TOKEN secret;
+          # fall back to the automatic per-run token when it is not set.
+          PUSH_TOKEN: ${{ secrets.PUSH_TOKEN }}
+          RUN_TOKEN: ${{ github.token }}
+        run: |
+          git config --global --add safe.directory '*'
+          token="${PUSH_TOKEN:-$RUN_TOKEN}"
+          host="${GITHUB_SERVER_URL#https://}"
+          git clone --depth 1 --branch "$GITHUB_REF_NAME" \
+            "https://x-access-token:${token}@${host}/${GITHUB_REPOSITORY}.git" .
+
+      - name: Check links and annotate dead entries
+        run: python3 .forgejo/scripts/check_links.py
+
+      - name: Commit changes if any
+        run: |
+          if [ -n "$(git status --porcelain README.md)" ]; then
+            git config user.name "Link Checker"
+            git config user.email "link-checker@source.tube"
+            git add README.md
+            git commit -m "chore: flag dead links (automated monthly check)"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          else
+            echo "No dead-link changes to commit."
+          fi
