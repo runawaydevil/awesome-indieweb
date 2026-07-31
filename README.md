@@ -8,7 +8,7 @@ This list spans both resources **native to the IndieWeb** (standards and buildin
 
 **Contributions are welcome.** Open a [pull request](https://github.com/runawaydevil/awesome-indieweb/pulls) to add, update, or remove an entry, or file an [issue](https://github.com/runawaydevil/awesome-indieweb/issues/new/choose) to suggest a resource or report a broken link. Please read the [contribution guidelines](CONTRIBUTING.md) first.
 
-Links are checked automatically on the first of each month. Entries found permanently unreachable are flagged **(link no longer exists)** next to them — please open a PR to fix or remove any you spot.
+Links are checked automatically on the first of each month. Entries found permanently unreachable are flagged **(link no longer exists)** next to them. Please open a PR to fix or remove any you spot.
 
 ## Contents
 
@@ -71,7 +71,7 @@ Links are checked automatically on the first of each month. Entries found perman
 - [h-entry](https://microformats.org/wiki/h-entry) - Format for posts, notes, articles, photos, replies, likes, and other content.
 - [h-feed](https://microformats.org/wiki/h-feed) - Container for a sequence of `h-entry` items so an HTML page can also be read as a feed.
 - [Microsub](https://indieweb.org/Microsub-spec) - Splits the subscription server from the reading client, mirroring what Micropub does on the publishing side.
-- [WebSub](https://www.w3.org/TR/websub/) - Delivers near-real-time feed updates via a publisher–hub–subscriber architecture.
+- [WebSub](https://www.w3.org/TR/websub/) - Delivers near-real-time feed updates via a publisher-hub-subscriber architecture.
 - [JF2](https://www.w3.org/TR/jf2/) - Simplified JSON representation of data derived from microformats2.
 - [RSS 2.0](https://www.rssboard.org/rss-specification) - Feed format with near-universal compatibility and low implementation cost.
 - [Atom](https://www.rfc-editor.org/rfc/rfc4287) - IETF-standardized feed format, stricter than RSS on identifiers, dates, and extensibility.
@@ -227,7 +227,7 @@ Links are checked automatically on the first of each month. Entries found perman
 - [Opalstack](https://opalstack.com/) - Independent hosting for static sites and apps, with shell access and varied runtimes.
 - [Njalla](https://njal.la/) - Privacy-first registrar that registers domains as a legal proxy, shielding ownership.
 - [Dynadot](https://www.dynadot.com/) - Independent registrar with transparent at-cost pricing, free WHOIS privacy, and a clean API.
-- [INWX](https://www.inwx.com/) - German registrar with wide TLD coverage, DNSSEC, and a robust API.
+- [INWX](https://www.inwx.com/) - German registrar with wide TLD coverage, DNSSEC, and a full-featured API.
 - [Hover](https://www.hover.com/) - Domains-and-email-only registrar with free WHOIS privacy.
 - [Spaceship](https://www.spaceship.com/) - Namecheap-affiliated registrar with aggressive at-cost pricing and free WHOIS privacy.
 - [EasyDNS](https://easydns.com/) - Independent Canadian registrar and managed-DNS provider with a strong civil-liberties record.
@@ -252,7 +252,7 @@ Links are checked automatically on the first of each month. Entries found perman
 - [Apache HTTP Server](https://httpd.apache.org/) - Mature option, especially suited to PHP hosting and per-directory configuration.
 - [lighttpd](https://www.lighttpd.net/) - Lightweight server for small installs and modest hardware.
 - [Traefik](https://traefik.io/traefik/) - Dynamic reverse proxy useful when several services run in containers.
-- [HAProxy](https://www.haproxy.org/) - Robust proxy and load balancer for architectures needing more traffic control.
+- [HAProxy](https://www.haproxy.org/) - High-performance proxy and load balancer for architectures needing more traffic control.
 - [Let's Encrypt](https://letsencrypt.org/) - Free certificate authority that made HTTPS accessible to personal sites.
 - [Certbot](https://certbot.eff.org/) - Client to issue and renew Let's Encrypt certificates when the server doesn't automate it.
 - [Docker](https://www.docker.com/) - Packages services and dependencies; useful, but doesn't replace backup, updates, and observability.
@@ -704,12 +704,12 @@ A coherent deployment can be understood as eight layers. Not all need to exist o
 
 ## Recommended Stacks
 
-- **Beginner, no server admin** — Own domain + Micro.blog + RSS/JSON Feed + optional Buttondown.
-- **Best balance for most** — WordPress on reliable hosting + a semantic theme + IndieWeb + Webmention + Semantic Linkbacks + IndieAuth + Micropub + external backups.
-- **Static, fast, versioned** — Eleventy/Hugo/Astro + Git + Codeberg/GitHub + Cloudflare Pages/Netlify + microformats2 + RSS + Webmention.io + webmention.app + Bridgy Fed + GoatCounter.
-- **Compact self-hosting** — GoBlog + Caddy + SQLite + Docker Compose or systemd + Restic + Uptime Kuma.
-- **Git publishing with Micropub** — Indiekit + Eleventy/Astro + Git repo + Quill/Micropublish + Webmention.io or webmentiond.
-- **Hand-made and minimal** — Hand-written HTML/CSS + h-card/h-entry/h-feed + RSS + static hosting + Webmention.io.
+- **Beginner, no server admin:** Own domain + Micro.blog + RSS/JSON Feed + optional Buttondown.
+- **Best balance for most:** WordPress on reliable hosting + a semantic theme + IndieWeb + Webmention + Semantic Linkbacks + IndieAuth + Micropub + external backups.
+- **Static, fast, versioned:** Eleventy/Hugo/Astro + Git + Codeberg/GitHub + Cloudflare Pages/Netlify + microformats2 + RSS + Webmention.io + webmention.app + Bridgy Fed + GoatCounter.
+- **Compact self-hosting:** GoBlog + Caddy + SQLite + Docker Compose or systemd + Restic + Uptime Kuma.
+- **Git publishing with Micropub:** Indiekit + Eleventy/Astro + Git repo + Quill/Micropublish + Webmention.io or webmentiond.
+- **Hand-made and minimal:** Hand-written HTML/CSS + h-card/h-entry/h-feed + RSS + static hosting + Webmention.io.
 
 ## Choices by Need
 

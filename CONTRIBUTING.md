@@ -12,13 +12,13 @@ Thanks for taking the time to contribute! Please [open a pull request](https://g
   - [Name](https://example.com) - A short, factual description ending with a period.
   ```
 
-- Keep descriptions concise (ideally one line) and objective — describe what the resource does, not why you like it.
+- Keep descriptions concise (ideally one line) and objective: describe what the resource does, not why you like it.
 - Prefer the canonical, HTTPS project URL. Avoid tracking parameters and affiliate links.
 - Check the link works and the project is maintained (recent releases or activity).
 
 ## Quality bar
 
-- No duplicates — search the list before adding.
+- No duplicates. Search the list before adding.
 - No dead links, parked domains, or abandoned projects presented as current.
 - One entry per resource, in a single most-fitting section.
 

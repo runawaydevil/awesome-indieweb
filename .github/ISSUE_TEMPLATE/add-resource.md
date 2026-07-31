@@ -5,7 +5,7 @@ title: "Add: <resource name>"
 labels: new resource
 ---
 
-<!-- Prefer opening a pull request if you can — it is faster to merge. Use this issue if you cannot. -->
+<!-- Prefer opening a pull request if you can. It is faster to merge. Use this issue if you cannot. -->
 
 ## Resource
 
