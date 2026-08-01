@@ -671,6 +671,7 @@ Links are checked automatically on the first of each month. Entries found perman
 - [Web We Want](https://webwewant.fyi/) - Collection of needs and ideas for a more human, open, interoperable web.
 - [A Website Is a Room](https://a-website-is-a-room.net/) - Collective exploration of the site as a personal, social, and creative space beyond the platform feed.
 - [Tildeverse](https://tildeverse.org/) - Federation of public-access UNIX "tilde" servers where members build personal pages.
+- [runv.club](https://runv.club/) - Brazilian tilde-style community with free shell accounts, personal web hosting, and IRC, run by the nonprofit Portal IDEA and aimed at learning and small-web publishing. ⭐ *Curator's pick*
 - [HTML Energy](https://html.energy/) - Community and movement celebrating hand-written HTML and personal websites, with events and jams.
 - [MelonLand Forum](https://forum.melonland.net/) - Active forum and wiki for the old/personal-web revival, webrings, and Neocities-style building.
 - [SadGrl.online](https://sadgrl.online/) - Hub of webmastering guides, a layout generator, and resources encouraging indie sites.
