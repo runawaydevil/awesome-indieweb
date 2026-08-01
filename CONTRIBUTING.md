@@ -1,6 +1,6 @@
 # Contribution Guidelines
 
-Thanks for taking the time to contribute! Please [open a pull request](https://github.com/runawaydevil/awesome-indieweb/pulls) to add, update, or remove an entry. If you cannot open a PR, [file an issue](https://github.com/runawaydevil/awesome-indieweb/issues/new/choose) to suggest a resource or report a broken link.
+Thanks for taking the time to contribute! Please [open a pull request](https://source.tube/pmurad/awesome-indieweb/pulls) to add, update, or remove an entry. If you cannot open a PR, [file an issue](https://source.tube/pmurad/awesome-indieweb/issues/new/choose) to suggest a resource or report a broken link.
 
 ## Adding an entry
 

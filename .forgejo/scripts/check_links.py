@@ -15,7 +15,7 @@ ENTRY_RE = re.compile(r"^- \[[^\]]+\]\((https?://[^)]+)\)")
 
 UA = (
     "Mozilla/5.0 (compatible; awesome-indieweb-linkcheck/1.0; "
-    "+https://github.com/runawaydevil/awesome-indieweb)"
+    "+https://source.tube/pmurad/awesome-indieweb)"
 )
 TIMEOUT = 20
 
