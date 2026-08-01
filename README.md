@@ -366,7 +366,7 @@ Links are checked automatically on the first of each month. Entries found perman
 - [benjifs/micropub](https://github.com/benjifs/micropub) - Serverless Micropub and media endpoint that publishes posts to a Git-backed static site.
 - [kirby-micropub](https://github.com/sebsel/kirby-micropub) - Micropub server endpoint for the Kirby CMS.
 - [selfauth](https://github.com/Inklings-io/selfauth) - Minimal single-user PHP IndieAuth authorization endpoint so you can be your own identity provider.
-- [Indigenous for Android](https://indigenous.realize.be/) - Native Android app acting as a Micropub posting client and Microsub reader.
+- [Indigenous for Android](https://indigenous.realize.be/) - Native Android app acting as a Micropub posting client and Microsub reader. **(link no longer exists)**
 - [Post Kinds](https://wordpress.org/plugins/indieweb-post-kinds/) - WordPress plugin adding reply/like/bookmark/RSVP post types with proper microformats2 markup and reply-context.
 - [Syndication Links](https://wordpress.org/plugins/syndication-links/) - WordPress plugin that displays and manages POSSE syndication URLs for cross-posted content.
 - [Semantic Linkbacks](https://wordpress.org/plugins/semantic-linkbacks/) - WordPress plugin enriching incoming Webmentions/pingbacks into semantic comments (likes, reposts, replies).
@@ -417,7 +417,7 @@ Links are checked automatically on the first of each month. Entries found perman
 - [Iceshrimp](https://iceshrimp.dev/) - Lean, rewritten Misskey-family server focused on performance and standards compliance.
 - [Firefish](https://joinfirefish.org/) - A Misskey fork (formerly Calckey) whose development has largely stalled.
 - [snac2](https://codeberg.org/grunfink/snac2) - Tiny C-based single/multi-user ActivityPub server with minimal dependencies.
-- [Honk](https://humungus.tedunangst.com/r/honk) - Minimalist single-user ActivityPub server with no JavaScript.
+- [Honk](https://humungus.tedunangst.com/r/honk) - Minimalist single-user ActivityPub server with no JavaScript. **(link no longer exists)**
 - [Epicyon](https://libreserver.org/epicyon/) - AGPL, low-resource ActivityPub server designed for small self-hosted communities.
 - [Hometown](https://github.com/hometown-fork/hometown) - Mastodon fork adding local-only posting and full-text formatting.
 - [Friendica](https://friendi.ca/) - Decentralized social server federating across ActivityPub, Diaspora, and more.
@@ -629,7 +629,7 @@ Links are checked automatically on the first of each month. Entries found perman
 - [Sa11y](https://sa11y.netlify.app/) - In-page accessibility QA assistant that flags content issues visually for authors.
 - [Colorable](https://colorable.jxnblk.com/) - Interactive tool to test text/background color combinations against contrast ratios.
 - [HTMLHint](https://htmlhint.com/) - Configurable static linter for HTML to keep markup clean and valid.
-- [SVGO](https://github.com/svg/svgo) - Node tool to optimize and shrink SVG files, reducing page weight.
+- [SVGO](https://github.com/svg/svgo) - Node tool to optimize and shrink SVG files, reducing page weight. **(link no longer exists)**
 - [Sharp](https://sharp.pixelplumbing.com/) - High-performance Node image-processing library for resizing and compressing images.
 - [oxipng](https://github.com/oxipng/oxipng) - Fast multithreaded lossless PNG optimizer.
 - [pngquant](https://pngquant.org/) - Lossy PNG compressor that greatly reduces size with minimal quality loss.
@@ -675,7 +675,7 @@ Links are checked automatically on the first of each month. Entries found perman
 - [HTML Energy](https://html.energy/) - Community and movement celebrating hand-written HTML and personal websites, with events and jams.
 - [MelonLand Forum](https://forum.melonland.net/) - Active forum and wiki for the old/personal-web revival, webrings, and Neocities-style building.
 - [SadGrl.online](https://sadgrl.online/) - Hub of webmastering guides, a layout generator, and resources encouraging indie sites.
-- [Blaugust](https://blaugust.net/) - Annual month-long event encouraging people to (re)start personal blogging, with mentors and a Discord.
+- [Blaugust](https://blaugust.net/) - Annual month-long event encouraging people to (re)start personal blogging, with mentors and a Discord. **(link no longer exists)**
 - [Recurring Creative Challenges](https://challenges.stefanbohacek.com/) - Directory of recurring indie-web and creative challenges that drive personal-site activity.
 - [Yesterweb](https://yesterweb.org/) - Influential anti-corporate "reclaim the web" community and webzine.
 - [omg.lol](https://omg.lol/) - Community of personal websites built around your own domain, with profile pages carrying h-card and rel=me, a weblog, statuslog and now pages, and the social.lol Mastodon instance. ⭐ *Curator's pick*
