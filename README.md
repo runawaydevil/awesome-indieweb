@@ -45,6 +45,11 @@ Links are checked automatically on the first of each month. Entries found perman
 - [Category: Building Blocks](https://indieweb.org/Category%3Abuilding-blocks) - Index of the identity, publishing, reading, interaction, and syndication building blocks.
 - [IndieWeb Guide](https://indieweb.guide/) - A progressive, friendlier guide than the wiki for starting a site and adding capabilities.
 - [Getting Started](https://indieweb.org/Getting_Started) - Community roadmap for getting a domain, hosting, home page, and your own presence.
+- [Getting Started (Portuguese)](https://indieweb.org/Primeiros_passos) - Portuguese-language getting-started guide covering domain, home page, and connecting to the community.
+- [IndieWeb Wiki (Portuguese)](https://indieweb.org/Main_Page-pt) - Portuguese-language entry point to IndieWeb concepts and practices for Lusophone readers.
+- [IndieWeb Adjacent Communities](https://indieweb.org/communities) - Wiki page mapping communities that overlap with or sit adjacent to the IndieWeb, spanning microformats, the Social Web, and small-web groups.
+- [IndieWeb Cities](https://indieweb.org/cities) - Index of cities tied to IndieWeb meetups and organizing, useful for finding local and historical gatherings.
+- [IndieNews](https://news.indieweb.org/en) - Community news aggregator of posts submitted via Webmention; a good way to discover active blogs and implementation write-ups.
 - [Indie Dev Toolkit](https://github.com/thedaviddias/indie-dev-toolkit) - Broad collection of tools for independent developers (domains, content, metrics, operations).
 - [Awesome Selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) - Huge catalog of self-hosted software; excellent source for comments, readers, media, analytics, and archives.
 - [Awesome Static Generators](https://github.com/myles/awesome-static-generators) - Comprehensive list of static site generators, themes, editors, and hosts.
@@ -246,6 +251,11 @@ Links are checked automatically on the first of each month. Entries found perman
 - [Mythic Beasts](https://www.mythic-beasts.com/) - UK independent host offering VPS, shell accounts, DNS, and personal web/email hosting.
 - [rsync.net](https://rsync.net/) - Minimalist offsite storage accessed over SSH/rsync/SFTP; ideal for portable, provider-agnostic backups.
 - [Uberspace](https://uberspace.de/en/) - Hosting on Asteroids since 2010. Host your homepage, store git repositories, compile your own software or run your own web service. You can do it all!
+- [Reclaim Hosting](https://reclaimhosting.com/) - Paid host popular in education, bundling a first-year domain and support for traditional CMS and personal-site stacks.
+- [FastMail Static Sites](https://www.fastmail.com/) - Feature of the paid FastMail email service that serves static websites from storage linked to the account.
+- [Puter](https://puter.com/) - Web platform offering static hosting, a file manager, and workers, with custom domains on paid plans.
+- [FC2 Web](https://fc2.com/) - Japanese free hosting service with FTP access, useful for old-web-style personal pages.
+- [Web 1.0 Hosting](https://1.hosting/) - Free hosting explicitly inspired by the classic web, aimed at personal sites and web nostalgia.
 
 ## Servers, TLS and Deployment
 
@@ -307,6 +317,8 @@ Links are checked automatically on the first of each month. Entries found perman
 - [microformats-ruby](https://github.com/microformats/microformats-ruby) - Maintained gem parsing microformats1/2 into Ruby objects, a hash, or JSON.
 - [MicroMicro](https://github.com/jgarber623/micromicro) - Ruby gem focused on strict, modern microformats2 extraction.
 - [microformats2-elixir](https://github.com/ckruse/microformats2-elixir) - microformats2 parser for the Elixir ecosystem.
+- [indieweb-endpoints.cc](https://indieweb-endpoints.cc/) - Tool that discovers a site's IndieAuth, Micropub, Microsub, and Webmention endpoints from a single URL.
+- [IndieWeb Toolbox](https://toolbox.imoxia.com/) - Web toolbox for diagnosing endpoints, feeds, and other elements of an IndieWeb stack.
 
 ## Webmention and Interactions
 
@@ -377,6 +389,10 @@ Links are checked automatically on the first of each month. Entries found perman
 - [Yarns Microsub Server](https://github.com/jackjamieson2/yarns-microsub-server) - Turns WordPress into a Microsub server so you can host your own social reader feeds.
 - [Parse This](https://github.com/dshanske/parse-this) - microformats2/feed/JSONFeed parsing library used by Post Kinds and Yarns for reply-context and feeds.
 - [WebSub/PubSubHubbub for WP](https://wordpress.org/plugins/pubsubhubbub/) - Adds WebSub (real-time feed push) publishing to WordPress feeds.
+- [Sunlit](https://sunlit.io/) - App for publishing photo posts to Micro.blog, WordPress, or any Micropub-compatible blog.
+- [micropub-go](https://gitlab.com/jamietanna/micropub-go/) - Go command-line Micropub client for scriptable publishing and automation.
+- [Micropub Clients (wiki)](https://indieweb.org/Micropub/Clients) - Community-maintained inventory of known Micropub clients, apps, and experiments.
+- [Micropub Extensions](https://indieweb.org/Micropub-extensions) - Catalog of stable and experimental extensions to the Micropub protocol for more advanced stacks.
 
 ## Feeds, Readers and Microsub
 
@@ -479,6 +495,10 @@ Links are checked automatically on the first of each month. Entries found perman
 - [HTML Hobbyist Webring](https://webring.htmlhobbyist.com/) - Webring for hand-coded, hobbyist HTML personal sites.
 - [Nightfall City](https://nightfall.city/) - Small-web community hub and webring with a retro/indie aesthetic.
 - [Ultimate Webring List](https://tuffgong.nekoweb.org/webring-list.html) - Continuously maintained meta-index of active webrings across the small web.
+- [Indieweb.xyz](https://indieweb.xyz/) - Webmention-based aggregator organized into topic channels for discovering independent posts by subject.
+- [Open Mentions](https://indieweb.org/Open_Mentions) - Webmention aggregation approach that builds per-topic or per-URL pages from received mentions, enabling themed discovery without a central platform.
+- [RSS Blogroll Network](https://indieweb.org/Discovery#RSS_Blogroll_Network) - Feed- and blogroll-based network for finding interlinked blogs, acting as a distributed discovery mechanism.
+- [Microcast.club](https://microcast.club/) - Webring-style directory for microcasts and independent audio creators.
 
 ## Comments, Forms, Newsletters and Analytics
 
@@ -662,6 +682,8 @@ Links are checked automatically on the first of each month. Entries found perman
 - [IndieWebCamp](https://indieweb.org/IndieWebCamp) - Collaborative meetups where participants discuss, design, and implement their own sites.
 - [Homebrew Website Club](https://indieweb.org/Homebrew_Website_Club) - Informal meetings to work on personal sites and trade practical help.
 - [IndieWeb Chat](https://chat.indieweb.org/) - Public support channels on dev, WordPress, events, and general use.
+- [IndieWeb Chat (Discord)](https://discord.gg/UEp9p3yNYj) - Official IndieWeb Discord server, mirrored with the IRC and web channels, for those who prefer Discord.
+- [IndieWeb Community](https://indieweb.org/community) - Overview of the community, its principles, and ways to take part, centered on personal sites and using what you build.
 - [IndieWeb Events](https://events.indieweb.org/) - Calendar of online and in-person meetups.
 - [IndieWeb Principles](https://indieweb.org/principles) - Principles like owning your data, using what you build, documenting, and prioritizing experience.
 - [IndieMark](https://indieweb.org/IndieMark) - A levels model to visualize identity, publishing, syndication, and interaction capabilities.
@@ -675,6 +697,8 @@ Links are checked automatically on the first of each month. Entries found perman
 - [A Website Is a Room](https://a-website-is-a-room.net/) - Collective exploration of the site as a personal, social, and creative space beyond the platform feed.
 - [Tildeverse](https://tildeverse.org/) - Federation of public-access UNIX "tilde" servers where members build personal pages.
 - [runv.club](https://runv.club/) - Brazilian tilde-style community with free shell accounts, personal web hosting, and IRC, run by the nonprofit Portal IDEA and aimed at learning and small-web publishing. ⭐ *Curator's pick*
+- [noctem.cafe](https://noctem.cafe/) - Small Brazilian OpenBSD pubnix offering shell accounts and personal pages, plus Gopher, Gemini, and I2P space for small experiments.
+- [The Black Cat](https://theblack.cat/) - Small, invite-only community hosting tiny handmade personal websites, with a browser-based editor and no JavaScript, trackers, or algorithms. ⭐ *Curator's pick*
 - [HTML Energy](https://html.energy/) - Community and movement celebrating hand-written HTML and personal websites, with events and jams.
 - [MelonLand Forum](https://forum.melonland.net/) - Active forum and wiki for the old/personal-web revival, webrings, and Neocities-style building.
 - [SadGrl.online](https://sadgrl.online/) - Hub of webmastering guides, a layout generator, and resources encouraging indie sites.
@@ -691,6 +715,7 @@ Links are checked automatically on the first of each month. Entries found perman
 - [The Odin Project](https://www.theodinproject.com/) - Free, open-source full-stack curriculum; a strong path for building and hosting your own site.
 - [web.dev Learn](https://web.dev/learn/) - Structured modern courses on HTML, CSS, and responsive design.
 - [Josh Comeau's Blog](https://www.joshwcomeau.com/) - Deep, approachable CSS/JavaScript tutorials for leveling up a hand-built site.
+- [Deploying Your Own IndieWeb Site with Indiekit + Eleventy](https://fulldecent.github.io/dev-indieweb/indieweb/indiekit/eleventy/docker/2026/02/14/deploying-your-own-indieweb-site-with-indiekit-and-eleventy-docker-compose-based.html) - 2026 walkthrough of a Docker-based Indiekit + Eleventy stack, including compatible Micropub clients.
 
 ## IndieWeb Architecture
 
