@@ -125,6 +125,7 @@ Links are checked automatically on the first of each month. Entries found perman
 - [weblog.lol](https://weblog.lol/) - Plain-text blogging service; posts are Markdown synced via GitHub/email, publishable on your own domain with full export.
 - [Pika](https://pika.page/) - Simple blog-and-personal-page builder for makers, with custom domains and a writing focus.
 - [Listed](https://listed.to/) - Minimalist blogging platform by Standard Notes; publish notes as a public blog on a custom domain.
+- [Pagecord](https://pagecord.com/) - Hosted minimal blogging platform with custom domains, feeds, and full export; supports Micropub, microformats2, and publishing by email. ⭐ *Curator's pick*
 - [Val Town](https://www.val.town/) - Social platform for tiny serverless functions and sites; handy for webmention handlers and small IndieWeb glue.
 
 ## Content Management Systems
