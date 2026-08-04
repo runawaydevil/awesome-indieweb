@@ -32,10 +32,8 @@ jobs:
       - name: Commit changes if any
         run: |
           if [ -n "$(git status --porcelain README.md)" ]; then
-            git config user.name "Link Checker"
-            git config user.email "link-checker@source.tube"
             git add README.md
-            git commit -m "chore: flag dead links (automated monthly check)"
+            git -c user.name="Link Checker" -c user.email="" commit -m "chore: flag dead links (automated monthly check)"
             git push origin "HEAD:${GITHUB_REF_NAME}"
           else
             echo "No dead-link changes to commit."
